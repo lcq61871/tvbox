@@ -24,76 +24,6 @@
       "ext": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json",
       "jar": "https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar"
     },
-    {
-      "key": "新6V",
-      "name": "新6V",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 60,
-      "jar": "https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar"
-    },
-    {
-      "key": "黑木耳",
-      "name": "黑木耳",
-      "type": 1,
-      "api": "https://www.heimuer.tv/api.php/provide/vod",
-      "playUrl": "https://player.heimuer.tv/index.html?url=",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "剧情",
-        "动作",
-        "冒险",
-        "同性",
-        "喜剧",
-        "奇幻",
-        "恐怖",
-        "悬疑",
-        "惊悚",
-        "灾难",
-        "爱情",
-        "犯罪",
-        "科幻",
-        "动画电影",
-        "歌舞",
-        "战争",
-        "经典",
-        "网络电影",
-        "国产剧",
-        "港剧",
-        "韩剧",
-        "日剧",
-        "泰剧",
-        "台剧",
-        "欧美剧",
-        "新马剧",
-        "其他剧",
-        "国产综艺",
-        "港台综艺",
-        "韩国综艺",
-        "日本综艺",
-        "欧美综艺",
-        "新马泰综艺",
-        "其他综艺",
-        "欧美",
-        "日本",
-        "韩国",
-        "国产",
-        "港台",
-        "古装",
-        "虐恋",
-        "逆袭",
-        "悬疑",
-        "神豪",
-        "重生",
-        "复仇",
-        "穿越",
-        "甜宠",
-        "强者"
-      ]
-    },
 	{
       "key": "huawei",
       "name": "華為資源站",
@@ -170,15 +100,6 @@
       ]
     },
 {"key": "dr_博看听书[听]","name": "🍋博看听书[听][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/听书/博看听书[听].js"},
-{"key": "dr_播客[听]","name": "🍋播客[听][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./js/听书/播客[听].js"},
-{"key": "dr_喜马拉雅[听]","name": "🍋喜马拉雅[听][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/听书/喜马拉雅[听].js"},
-{"key": "dr_老白故事[听]","name": "🍋老白故事[听][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/听书/老白故事[听].js"},
-{"key": "dr_笔趣阁[书]","name": "🍠笔趣阁[书][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/小说/笔趣阁[书].js"},
-{"key": "dr_笔趣阁13[书]","name": "🍠笔趣阁13[书][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/小说/笔趣阁13[书].js"},
-{"key": "dr_DJ音乐[音]","name": "🍈DJ音乐[音][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 1,"filterable": 1,"ext": "./js/音乐/DJ音乐[音].js"},
-{"key": "dr_KTV歌厅[音]","name": "🍈KTV歌厅[音][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/音乐/KTV歌厅[音].js"},
-{"key": "dr_ASMR助眠[音]","name": "🍈ASMR助眠[音][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/音乐/ASMR助眠[音].js"},
-{"key": "MTV转点播","name": "🍈MTV[音]","type": 3,"playerType": 2,"api": "./libs/音乐转点播.js","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.597},"ext": "./js/json/MTV2.txt"},
 {"key":"豆瓣","name":"🍥┃豆瓣┃预告","type":3,"api":"csp_YGP","playerType":2,"searchable":0},
 {"key":"相声小品","name":"🍓相声┃小品","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://p.ntnas.top/https://raw.githubusercontent.com/xiongjian83/TvBox/main/sub/Blixs.json"},
 {"key":"戏曲","name":"🌤戏曲┃大全","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://p.ntnas.top/https://raw.githubusercontent.com/xiongjian83/TvBox/main/sub/Blixq.json"},
@@ -322,28 +243,11 @@
             },
             "gridview": "0-0-4.1"
         },
- 
- 
- 
- 
-{"key": "APP商店","name": "🎰┃我的┃应用商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "./libs/market.json","jar": "./libs/jar/app.jar"},
 
     {"key":"88看球","name":"⚽88┃看球","type":3,"api":"csp_KanqiuGuard","searchable":1,"changeable":0,"style":{"type":"list"},"timeout":10},
     {"key":"jrsjs","name":"⚽Jrs┃球迷","type":3,"api":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js","ext":"https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cb93309b-a570-488f-8b3b-ccdfd5dea98a/2024-07-08/2024-07-08_12:19:00/1720412340587/77562264/jrs.txt","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0,"timeout":10,"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"}},
     {"key":"310js","name":"⚽310┃看球","type":3,"api":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js","ext":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885145/310.txt","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0,"timeout":10},
 
-{"key":"瓜子","name":"🍉瓜子┃App","type": 3,"api":"csp_GuaziGuard","searchable":1,"quickSearch":1,"filterable":1, "timeout": 10},
-{"key":"csp_BookTing","name":"📚┃听书┃音频","type":3,"playerType":"2","api":"csp_BookTing","searchable":0,"ext":"https://m.ting275.com","style":{"type":"rect","ratio":1.333}},
-{"key":"csp_YouShengBook","name":"📚┃有声┃小说","type":3,"playerType":"2","api":"csp_YouShengBook","searchable":0,"style":{"type":"rect","ratio":1.333}},
-{"key":"樱花动漫","name":"🌸┃樱花┃动漫","type":3,"playerType":"2","api":"csp_Ying"},
-{"key":"在线┃直播1","name":"📺┃竞技┃直播","type":3,"api":"http://dt.xn--yety82d.love/js/lib/drpy2.min.js","ext":"http://dt.xn--yety82d.love/js/JustLive.js","gridview":"0-0-H","style":{"type":"rect","ratio":1.68}},
-
-
-{"key": "dr_script直播[直]","name": "🥦script直播[直][DR]","type": 3,"api": "./libs/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./js/直播/script直播[直].js"},
-{"key": "易看资源","name": "🍃易看资源┃采集","type": 1,"api": "https://api.yikanapi.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1},
-
-{"key":"土豆","name":"🥔土豆┃网盘","type":3,"api":"csp_Wextudou","searchable":1,"changeable":1,"jar":"https://gitee.com/huaitingpeng/movies/raw/main/jar/wex/wex.txt"},
-{"key":"Wexyingchao","name":"🦜鸟巢┃网盘","type":3,"api":"csp_Wexyingchao","searchable":1,"changeable":1,"jar":"https://gitee.com/huaitingpeng/movies/raw/main/jar/wex/wex.txt"},
 {"key":"push_agent","name":"温馨提示：个人使用","type":3,"api":"csp_Push","playerType":"1","searchable":0,"ext":"http://127.0.0.1:9978/file/fatcat/token.txt"}],
 
 
@@ -359,32 +263,6 @@
             "epg": "http://epg.112114.eu.org/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
-	   {
-            "name": "不错1102源",
-            "ua": "okhttp/3.15",
-            "type": 0,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/chiang1102/a/refs/heads/main/test1.txt",
-            "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "香港直播",
-            "ua": "AptvPlayer/1.3.3",
-            "type": 0,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wokaotianshi123/ott/main/mytvfree.m3u",
-            "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-
-    {
-            "name": "高清AV",
-            "ua": "okhttp/3.15",
-            "type": 0,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/Adult.m3u",
-            "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-
         {
             "name": "网友自用",
             "ua": "okhttp/3.15",
